@@ -10,3 +10,6 @@ function toggleLamp() {
   img.classList.toggle("d-none");
   img2.classList.toggle("d-none");
 }
+
+// aggiungo event listener
+btnEl.addEventListener("click", toggleLamp);
